@@ -1,3 +1,13 @@
+if __name__ == "__main__":
+    import sys
+    li = []
+    for i in sys.argv[1:]:
+        li.append(int(i))
+
+    print("Average is ",sum(li)/len(li))
+
+
+
 def average(values):
     """ Calculates the average of the given list. """
     total = 0
